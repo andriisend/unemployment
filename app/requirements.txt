@@ -5,3 +5,7 @@ pandas
 requests
 
 plotly
+
+statistics
+
+plotly.express
