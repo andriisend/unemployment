@@ -35,12 +35,12 @@ Run an example script:
 python app/my_script.py
 ```
 
-Run the unemployment report from CSV:
+Run an unemployment report from CSV:
 
 ```sh
 python app/unemployment_csv.py
 ```
-Run the unemployment report from JSON:
+Run an unemployment report from JSON:
 
 ```sh
 python app/unemployment_json.py
