@@ -34,3 +34,16 @@ print("Average unemployment rate for all months during this calendar year is: " 
 print( "This covers " + str(len(nums)) + " months")
 print("----------------------")
 print("----------------------")
+print("(Challenge C)")
+print("Displaying in a new browser window...")
+print("----------------------")
+print("----------------------")
+dates = []
+for d in data:
+    dates.append(d['date'])
+values = []
+for v in data:
+  values.append(float(v['value']))
+fig = px.line(x=dates, y=values, title = 'Unemployment rates over time')
+fig.update_layout(yaxis_ticksuffix = '%', xaxis_title = 'Date', yaxis_title = 'Unemployment rate')
+fig.show()
