@@ -1,0 +1,6 @@
+print("----------------------")
+print("----------------------")
+print("This is an example script.")
+print("Please follow the instructions provided in README to generate an unemployment report.")
+print("----------------------")
+print("----------------------")
