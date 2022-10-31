@@ -19,5 +19,21 @@ import pandas as pd
 df = read_csv(csv_request_url)
 first_row = df.iloc[0]
 
+print("----------------------")
+print("----------------------")
 print("(Challenge A)")
 print('The most recent unemployment rate is ' + str(first_row['value']) + '% on ' + str(first_row['timestamp']))
+print("----------------------")
+print("----------------------")
+print("(Challenge B)")
+avg_list = []
+calyr = df[df['timestamp'].str.contains("2022")==True]
+for f in calyr['value']:
+  avg_list.append(float(f))
+print("Average unemployment rate for all months during this calendar year is " + str(statistics.mean(avg_list)) + "%")
+print("----------------------")
+print("----------------------")
+
+
+
+
