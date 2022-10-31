@@ -11,21 +11,6 @@ Then create a local ".env" file and provide the key like this:
 
 API_KEY="_________"
 ```
-
-## Usage
-
-Run an example script:
-
-```sh
-python app/my_script.py
-```
-
-Run the unemployment report:
-
-```sh
-python app/unemployment.py
-```
-
 ## Setup
 
 Create and activate a virtual environment:
@@ -40,4 +25,23 @@ Install package dependencies:
 
 ```sh
 pip install -r requirements.txt
+```
+
+## Usage
+
+Run an example script:
+
+```sh
+python app/my_script.py
+```
+
+Run the unemployment report from CSV:
+
+```sh
+python app/unemployment_csv.py
+```
+Run the unemployment report from JSON:
+
+```sh
+python app/unemployment_json.py
 ```
