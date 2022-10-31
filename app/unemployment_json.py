@@ -7,6 +7,7 @@ import pandas as pd
 import requests
 from dotenv import load_dotenv 
 import statistics
+from plotly.express import line
 
 load_dotenv()
 
@@ -34,6 +35,7 @@ print("Average unemployment rate for all months during this calendar year is: " 
 print( "This covers " + str(len(nums)) + " months")
 print("----------------------")
 print("----------------------")
+
 print("(Challenge C)")
 print("Displaying in a new browser window...")
 print("----------------------")

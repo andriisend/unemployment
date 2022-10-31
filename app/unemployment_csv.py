@@ -33,7 +33,13 @@ for f in calyr['value']:
 print("Average unemployment rate for all months during this calendar year is " + str(statistics.mean(avg_list)) + "%")
 print("----------------------")
 print("----------------------")
-
+print("(Challenge C)")
+print("Displaying in a new browser window...")
+fig = px.line(df, x='timestamp', y='value', title='Unemployment rates over time')
+fig.update_layout(yaxis_ticksuffix = '%', xaxis_title = 'Date', yaxis_title = 'Unemployment rate')
+fig.show()
+print("----------------------")
+print("----------------------")
 
 
 
