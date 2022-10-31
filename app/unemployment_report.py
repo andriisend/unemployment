@@ -25,3 +25,12 @@ data = parsed_response["data"]
 print(f"The most recent unemployment rate is {data[0]['value']}% on {data[0]['date']}")
 print("----------------------")
 print("----------------------")
+print("(Challenge B)")
+nums = []
+for m in data:
+  if '2022' in m['date']:
+    nums.append(float(m['value']))
+print("Average unemployment rate for all months during this calendar year is: " + str(statistics.mean(nums)) + "%")
+print( "This covers " + str(len(nums)) + " months")
+print("----------------------")
+print("----------------------")
