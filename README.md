@@ -35,6 +35,12 @@ Run an example script:
 python app/my_script.py
 ```
 
+Run stock report 
+
+```sh
+python app/stocks.py
+```
+
 Run an unemployment report from CSV:
 
 ```sh
