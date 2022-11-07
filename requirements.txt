@@ -9,3 +9,5 @@ plotly
 statistics
 
 plotly.express
+
+pytest
