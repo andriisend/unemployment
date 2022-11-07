@@ -8,10 +8,7 @@ import pandas as pd
 import requests
 from dotenv import load_dotenv 
 import statistics
-
-load_dotenv()
-
-API_KEY = os.getenv("API_KEY")
+from app.alpha import API_KEY
 
 csv_request_url = f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&datatype=csv&apikey={API_KEY}"
 from pandas import read_csv

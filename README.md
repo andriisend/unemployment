@@ -32,22 +32,23 @@ pip install -r requirements.txt
 Run an example script:
 
 ```sh
-python app/my_script.py
+#python app/my_script.py
 ```
 
 Run stock report 
 
 ```sh
-python app/stocks.py
+#python app/stocks.py
+python -m app.stocks
 ```
 
 Run an unemployment report from CSV:
 
 ```sh
-python app/unemployment_csv.py
+#python app/unemployment_csv.py
 ```
 Run an unemployment report from JSON:
 
 ```sh
-python app/unemployment_json.py
+#python app/unemployment_json.py
 ```

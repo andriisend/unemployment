@@ -3,10 +3,7 @@ print("STOCKS REPORT...")
 import os
 from dotenv import load_dotenv
 from pandas import read_csv
-
-load_dotenv()
-
-API_KEY = os.getenv("API_KEY")
+from app.alpha import API_KEY
 
 symbol = input("Please input a crypto symbol (default: 'NFLX'): ") or "NFLX"
 print("SYMBOL:", symbol)
