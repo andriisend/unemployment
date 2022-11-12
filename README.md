@@ -52,3 +52,10 @@ Run an unemployment report from JSON:
 ```sh
 #python app/unemployment_json.py
 ```
+## Testing  
+
+Run tests:
+
+```sh 
+pytest
+```
