@@ -13,3 +13,4 @@ def test_winning_choice():
     assert determine_winner(user_choice="scissors", computer_choice="paper") == "scissors"
     assert determine_winner(user_choice="scissors", computer_choice="rock") == "rock"
     assert determine_winner(user_choice="scissors", computer_choice="scissors") == None
+    
