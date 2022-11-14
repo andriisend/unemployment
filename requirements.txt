@@ -11,3 +11,7 @@ statistics
 plotly.express
 
 pytest
+
+flask 
+
+sendgrid==6.6.0
