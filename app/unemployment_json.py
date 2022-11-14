@@ -16,6 +16,8 @@ response = requests.get(request_url)
 
 parsed_response = json.loads(response.text)
 
+print(parsed_response.keys())
+
 print("----------------------")
 print("----------------------")
 print("(Challenge A)")
