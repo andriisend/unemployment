@@ -29,6 +29,8 @@ pip install -r requirements.txt
 
 ## Usage
 
+
+
 Run an example script:
 
 ```sh
@@ -44,7 +46,7 @@ python -m app.stocks
 
 Run an unemployment report from CSV:
 
-```sh
+```shp
 #python app/unemployment_csv.py
 ```
 Run an unemployment report from JSON:
@@ -52,9 +54,6 @@ Run an unemployment report from JSON:
 ```sh
 #python app/unemployment_json.py
 ```
-<<<<<<< Updated upstream
-=======
-
 ### Web App
 
 Run the web app (then view in the browser at http://localhost:5000/):
@@ -69,14 +68,3 @@ FLASK_APP=web_app flask run
 export FLASK_APP=web_app
 flask run
 ```
-
-
-## Testing  
-
-Run tests:
-
-```sh 
-pytest
-```
-
->>>>>>> Stashed changes
