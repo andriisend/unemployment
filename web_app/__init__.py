@@ -1,5 +1,3 @@
-# this is the "web_app/__init__.py" file...
-
 from flask import Flask
 
 from web_app.routes.home_routes import home_routes
