@@ -42,6 +42,8 @@
     {% set nav_links = [
         ('/about', 'about', 'About'),
         ('/hello', 'hello', 'Hello'),
+        ('/unemployment/dashboard', 'unemployment_dashboard', 'Unemployment Dashboard'),
+        ('/stocks/form', 'stocks_form', 'Stocks Form'),
     ] -%}
     {% set active_page = active_page|default('home') -%}
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -92,7 +94,7 @@
         <footer style="margin-top:2em; margin-bottom:2em;">
         <hr>
             &copy; Copyright 2022 Andrii Sendziuk |
-            <a href="https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/web-app/README.md">Source</a>
+            <a href="https://github.com/andriisend/unemployment/blob/main/README.md">Source</a>
         </footer>
     </div>
 

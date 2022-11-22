@@ -46,7 +46,7 @@ python -m app.stocks
 
 Run an unemployment report from CSV:
 
-```sh
+```shp
 #python app/unemployment_csv.py
 ```
 Run an unemployment report from JSON:
